@@ -2,7 +2,7 @@ import { createLovableAiGatewayProvider } from "@/lib/ai-gateway.server";
 import { createFileRoute } from "@tanstack/react-router";
 import { convertToModelMessages, streamText, type UIMessage } from "ai";
 
-const SYSTEM_PROMPT = `You are Aria, an AI Workplace Productivity Assistant. You help professionals automate workplace tasks: drafting emails, summarizing meetings, planning tasks, researching topics, and answering work questions. Be concise, structured, and actionable. Use markdown formatting (headings, lists, bold) when helpful. Always be professional and supportive.`;
+const SYSTEM_PROMPT = `You are Axiom, an AI Workplace Productivity Assistant. You help professionals automate workplace tasks: drafting emails, summarizing meetings, planning tasks, researching topics, and answering work questions. Be concise, structured, and actionable. Use markdown formatting (headings, lists, bold) when helpful. Always be professional and supportive.`;
 
 export const Route = createFileRoute("/api/chat")({
   server: {
