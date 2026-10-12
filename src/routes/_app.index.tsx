@@ -7,11 +7,11 @@ export const Route = createFileRoute("/_app/")({
 });
 
 const tools = [
-  { title: "Smart Email Generator", desc: "Draft professional emails in seconds with tone and goal control.", url: "/email", icon: Mail, accent: "from-blue-500 to-indigo-500" },
-  { title: "Meeting Notes Summarizer", desc: "Turn raw transcripts into crisp summaries, decisions and action items.", url: "/meetings", icon: FileText, accent: "from-purple-500 to-pink-500" },
-  { title: "AI Task Planner", desc: "Break goals into prioritized, time-boxed task lists.", url: "/tasks", icon: ListTodo, accent: "from-emerald-500 to-teal-500" },
-  { title: "AI Research Assistant", desc: "Structured briefings on any topic with key facts and sources to verify.", url: "/research", icon: Search, accent: "from-orange-500 to-amber-500" },
-  { title: "AI Chatbot", desc: "Conversational assistant for any workplace question.", url: "/chat", icon: MessageSquare, accent: "from-violet-500 to-fuchsia-500" },
+  { title: "Smart Email Generator", desc: "Draft professional emails in seconds with tone and goal control.", url: "/email", icon: Mail, accent: "from-teal-700 to-teal-500" },
+  { title: "Meeting Notes Summarizer", desc: "Turn raw transcripts into crisp summaries, decisions and action items.", url: "/meetings", icon: FileText, accent: "from-teal-600 to-cyan-600" },
+  { title: "AI Task Planner", desc: "Break goals into prioritized, time-boxed task lists.", url: "/tasks", icon: ListTodo, accent: "from-slate-700 to-teal-600" },
+  { title: "AI Research Assistant", desc: "Structured briefings on any topic with key facts and sources to verify.", url: "/research", icon: Search, accent: "from-amber-500 to-yellow-500" },
+  { title: "AI Chatbot", desc: "Conversational assistant for any workplace question.", url: "/chat", icon: MessageSquare, accent: "from-charcoal-800 to-teal-700" },
 ];
 
 function Dashboard() {
