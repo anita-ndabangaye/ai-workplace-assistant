@@ -240,7 +240,7 @@ function ChatWindow({
                   submit();
                 }
               }}
-              placeholder="Message Aria…"
+              placeholder="Message Axiom…"
               className="min-h-[56px] max-h-[200px] resize-none pr-12 rounded-xl"
             />
             <Button
