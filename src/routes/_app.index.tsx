@@ -11,7 +11,7 @@ const tools = [
   { title: "Meeting Notes Summarizer", desc: "Turn raw transcripts into crisp summaries, decisions and action items.", url: "/meetings", icon: FileText, accent: "from-teal-600 to-cyan-600" },
   { title: "AI Task Planner", desc: "Break goals into prioritized, time-boxed task lists.", url: "/tasks", icon: ListTodo, accent: "from-slate-700 to-teal-600" },
   { title: "AI Research Assistant", desc: "Structured briefings on any topic with key facts and sources to verify.", url: "/research", icon: Search, accent: "from-amber-500 to-yellow-500" },
-  { title: "AI Chatbot", desc: "Conversational assistant for any workplace question.", url: "/chat", icon: MessageSquare, accent: "from-charcoal-800 to-teal-700" },
+  { title: "AI Chatbot", desc: "Conversational assistant for any workplace question.", url: "/chat", icon: MessageSquare, accent: "from-slate-800 to-teal-700" },
 ];
 
 function Dashboard() {
@@ -35,7 +35,7 @@ function Dashboard() {
           <Link key={t.url} to={t.url} className="group">
             <Card className="p-6 h-full shadow-soft hover:shadow-glow transition-all hover:-translate-y-0.5 border-border/60">
               <div className={`h-11 w-11 rounded-lg bg-gradient-to-br ${t.accent} flex items-center justify-center mb-4 shadow-sm`}>
-                <t.icon className="h-5 w-5 text-white" />
+                <t.icon className="h-5 w-5 text-primary-foreground" />
               </div>
               <h3 className="font-semibold text-lg mb-1.5">{t.title}</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">{t.desc}</p>
